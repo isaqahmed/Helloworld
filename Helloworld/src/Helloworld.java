@@ -23,7 +23,7 @@ public class Helloworld
 
 	private static int fabinocci(int n)
 	{
-		if( n <= 3 )
+		if( n <= 2 )
 			return 1;
 		else
 			return fabinocci(n - 1) + fabinocci(n- 2);
