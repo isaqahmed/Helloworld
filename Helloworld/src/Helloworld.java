@@ -9,6 +9,8 @@ public class Helloworld
 		
 		int a = 10, b =25;
 		System.out.println("\nGCD of "+a+", "+b+" is "+gcd(a,b));
+		
+		System.out.println("End of main");
 	}
 
 	private static int gcd(int a, int b) 
